@@ -55,10 +55,3 @@ int main() {
     return 0;
 }
 
-##How to compile and run
-
-Using g++
-
-g++ dangling_pointer.cpp -o dangling_pointer
-./dangling_pointer
-
