@@ -18,6 +18,12 @@ This concept highlights why modern C++ prefers smart pointers like `std::unique_
 
 ---
 
+## License
+
+MIT License — free for anyone to use, modify, and share.
+
+---
+
 ## Source Code
 
 ```cpp
@@ -51,10 +57,4 @@ int main() {
 
     return 0;
 }
-
----
-
-## License
-
-MIT License — free for anyone to use, modify, and share.
 
