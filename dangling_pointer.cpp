@@ -28,9 +28,3 @@ int main() {
 
     return 0;
 }
-
----
-
-## License
-
-MIT License — free for anyone to use, modify, and share.
