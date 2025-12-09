@@ -1,6 +1,3 @@
-# dangling-pointer-demo
-Demonstration of undefined behavior in C++ using raw pointers.
-
 # Dangling Pointer Demonstration in C++
 
 This repository contains a simple and educational C++ program that demonstrates **dangling pointers** and **undefined behavior** when using raw dynamic memory.
@@ -9,7 +6,7 @@ The example shows how two pointers can reference the same allocated memory, and 
 
 ---
 
-##  What This Program Demonstrates
+## What This Program Demonstrates
 
 - Allocation of an integer on the heap with `new`
 - Copying the pointer (two pointers referencing the same memory)
@@ -17,11 +14,11 @@ The example shows how two pointers can reference the same allocated memory, and 
 - How the second pointer becomes a **dangling pointer**
 - Dereferencing a dangling pointer → **undefined behavior**
 
-This is a fundamental concept in low-level memory management and helps explain why C++ offers modern alternatives like `std::unique_ptr`.
+This concept highlights why modern C++ prefers smart pointers like `std::unique_ptr`.
 
 ---
 
-##  Source Code
+## Source Code
 
 ```cpp
 #include <iostream>
@@ -54,4 +51,10 @@ int main() {
 
     return 0;
 }
+
+---
+
+## License
+
+MIT License — free for anyone to use, modify, and share.
 
